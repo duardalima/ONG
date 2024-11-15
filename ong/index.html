@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barra de Navegação</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Barra de navegação -->
+<nav class="navbar">
+    <div class="logo"><img src="img/logo.png"></div>
+<div class="navbar-logo">ONG Mão Amiga</div>
+<ul class="navbar-links" id="navbarLinks">
+<li><a href="#home">Início</a></li>
+<li><a href="#sobre">Sobre</a></li>
+<li><a href="#atividades">Atividades</a></li>
+<li><a href="#contato">Contato</a></li>
+<li><a href="#doar" class="btn-doar">Como apoiar</a></li>
+</ul>
+<div class="navbar-toggle" id="navbarToggle"></div>
+</nav>
+
+<!--Slide-->
+<section class="slider">
+    <div class="slider-content">
+        
+        <input type="radio" name="btn-radio" id="radio1">
+        <input type="radio" name="btn-radio" id="radio2">
+        <input type="radio" name="btn-radio" id="radio3">
+
+        <div class="slide-box primeiro">
+            <img class="img-desktop" src="img/slide-1.jpg" alt="slide 1">
+            <img class="img-mobile" src="img/slide-1-mob.jpg" alt="slide 1">
+        </div>
+
+        <div class="slide-box">
+            <img class="img-desktop" src="img/slide-2.jpg" alt="slide 3">
+            <img class="img-mobile" src="img/slide-2-mob.jpg" alt="slide 1">
+        </div>
+
+        <div class="slide-box">
+            <img class="img-desktop" src="img/slide-3.jpg" alt="slide 3">
+            <img class="img-mobile" src="img/slide-3-mob.jpg" alt="slide 3">
+        </div>
+
+        <div class="nav-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+        </div>
+
+        <div class="nav-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+
+    </div>
+</section>
+
+<!--about section starts-->
+
+<section class="about" id="about">
+    <h1 class="heading"> <span>about</span> us </h1>
+
+    <div class="row">
+        <!-- Contêiner de imagem -->
+        <div class="img-contain">
+            <img class="img-desktop" src="img/content.jpg" alt="Imagem ilustrativa">
+        </div>
+
+        <!-- Contêiner de texto -->
+        <div class="content">
+            <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            </p>
+            <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            </p>
+        </div>
+    </div>
+</section>
+
+<!--about section ends-->
+
+<!--Cards doações-->
+<section class="about" id="about">
+    <h1 class="heading"> <span>Doe</span> agora </h1>
