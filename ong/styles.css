@@ -292,11 +292,7 @@ section.slider{
   background: #fff3cd;
 }
 
-.phrase h2 {
-  font-family: 'Poppins', sans-serif; /* Aplica a fonte Poppins */
-  font-size: 24px; /* Tamanho da fonte */
-  color: #333; /* Cor do texto */
-  font-weight: bold; /* Define o peso da fonte */}
+
 
 
 .card-list .card-link .card-title{
@@ -431,14 +427,16 @@ font-weight: 600;
 }
 
 /*Frase*/
+.phrase {
+  text-align: center; /* Centraliza o texto */
+  margin-top: 50px; /* Espaçamento acima da frase */
+  margin-bottom: 20px; /* Espaçamento entre a frase e os cards */
+}
+
 .phrase h2 {
-  font-family: 'Poppins', sans-serif; /* Define a fonte */
   font-size: 24px; /* Tamanho da fonte */
   color: #333; /* Cor do texto */
-  font-weight: 700; /* Negrito */
-  text-align: center; /* Centraliza o texto */
-  margin-top: 30px; /* Espaçamento acima da frase */
-  margin-bottom: 20px; /* Espaçamento abaixo */
+  font-weight: bold; /* Negrito */
 }
 
 
@@ -624,7 +622,7 @@ font-weight: 600;
   width: 150px;
   height: 150px;
   position: absolute;
-  top: -10px;
+  top: 10px;
   left: -10px;
   overflow: hidden;
 }
