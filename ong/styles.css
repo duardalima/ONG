@@ -411,14 +411,14 @@ font-weight: 600;
   font-size: 2rem; /* Tamanho equivalente ao H2 */
   font-weight: bold;
   color: #228B22; /* Verde representando sustentabilidade */
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.0rem;
   text-transform: uppercase; /* Opcional para estilo mais marcante */
 }
 
 /*Separar Ativ de Card*/
 
 .container {
-  margin-bottom: 50px; /* Espaçamento entre o carrossel e a próxima seção */
+  margin-bottom: 5px; /* Espaçamento entre o carrossel e a próxima seção */
 }
 
 .pricing-section {
